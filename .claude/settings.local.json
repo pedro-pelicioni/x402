@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:www.x402.org)",
+      "WebFetch(domain:developers.stellar.org)",
+      "WebFetch(domain:dorahacks.io)",
+      "WebFetch(domain:stellar.org)",
+      "WebFetch(domain:xlm402.com)",
+      "WebFetch(domain:docs.x402.org)",
+      "WebFetch(domain:api.github.com)",
+      "WebSearch",
+      "WebFetch(domain:workos.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(npm test:*)",
+      "Bash(node -e \"const { Keypair } = require\\(''@stellar/stellar-sdk''\\); const kp = Keypair.random\\(\\); console.log\\(''PUBLIC:'', kp.publicKey\\(\\)\\); console.log\\(''SECRET:'', kp.secret\\(\\)\\);\")"
+    ]
+  }
+}
